@@ -1,6 +1,6 @@
 package com.sideproject.go_up_wall
 
-import androidx.appcompat.app.AppCompatActivity
+import :androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 class SettingActivity : AppCompatActivity() {
