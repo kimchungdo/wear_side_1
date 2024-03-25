@@ -14,10 +14,10 @@
         android:layout_marginTop="@dimen/title_margin_top"
         android:layout_marginEnd="@dimen/title_margin_end"
         android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="@dimen/title_text_size"
         android:text="@string/go_up_wall"
         android:textColor="@color/basic_white"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,6 +32,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/home_title_text" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/marquee_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="marquee Test For Marquee Runner"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_setting_button" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
